@@ -15,7 +15,6 @@ align-items: center;
 line-height: 22px;
 justify-content: start;
 align-items: center;
-list-style-type: circle;
 }
 
 .header__link_active {
@@ -30,16 +29,21 @@ flex-wrap: wrap;
 }
 
 .header__link {
+border-bottom: 1px;
 text-underline-offset: 4px;
 }
 
 
 .header__links-list-item {
+padding: auto;
+
+font-size: 18px;
 list-style-type: circle;
 
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item_no-bullet {
+font-size: 18px;
 list-style: none;
 }
 
@@ -49,15 +53,20 @@ height: 105px;
 }
 
 .address {
-justify-self: end;
-max-width: 240px;
-font-size: 18px;
-font-style: normal;
 font-weight: 400;
+font-size: 18px;
+line-height: 1.35;
+font-style: normal;
+max-width: 240px;
+justify-self: self-end;
+padding-right: 8.3%;
+text-underline-offset: 4px;
+
+
 }
 
-.header__adress {
-left: 811px;
+.header__adress {    
+
 }
 
 .cover { 
