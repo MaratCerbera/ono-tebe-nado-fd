@@ -16,7 +16,10 @@ line-height: 22px;
 justify-content: start;
 align-items: center;
 list-style-type: circle;
+}
 
+.header__link_active {
+text-decoration: none;
 }
 
 .header__links-list {
@@ -26,35 +29,35 @@ gap: 32px;
 flex-wrap: wrap;
 }
 
-.header__menu-link {
-font-size: 16px;
-line-height: 1.2;
-text-decoration: none;
-list-style-type: circle;
+.header__link {
+text-underline-offset: 4px;
 }
 
 
-.header__menu-item {
-display: flex;
-gap: 32px;
-flex-direction: row;
+.header__links-list-item {
 list-style-type: circle;
-border-bottom: 1px solid black;
 
+}
+
+.header__links-list-item_no-bullit {
+list-style: none;
 }
 
 .header__logo-image {
-display: block;
-width: 129px;
-height: 104px;
-top: 1.16px;
-left: 9.03px;
+width: 148px;
+height: 105px;
 }
 
-.adress {
-display: grid;
+.address {
 justify-self: end;
 max-width: 240px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+.header__adress {
+left: 811px;
 }
 
 .cover { 
